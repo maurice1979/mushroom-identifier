@@ -1,0 +1,292 @@
+{
+    "Amanita_muscaria": {
+        "description": "",
+        "edibility": "Not edible",
+        "insta_tag": "ntsam_cat",
+        "latin": "Amanita muscaria",
+        "name": "reig de fageda / reig bord",
+        "other_names": "",
+        "poisonous": "Not Poisonous",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Reig_de_fageda"
+    },
+    "Amanita_caesarea": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntsamc_cat",
+        "latin": "Amanita caesarea",
+        "name": "Ou de reig",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Amanita_citrina": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntsaci_cat",
+        "latin": "Amanita citrina",
+        "name": "Reig bord groc",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Amanita_pahlloides": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntsap_cat",
+        "latin": "Amanita pahlloides",
+        "name": "Farinera borda",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Boletus_calopus": {
+        "description": "",
+        "edibility": "Not edible",
+        "insta_tag": "ntsbc_cat",
+        "latin": "Boletus calopus",
+        "name": "Mataparent amarg",
+        "other_names": "",
+        "poisonous": "Not Poisonous",
+        "wikipedia": ""
+    },
+    "Boletus_edulis": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntsbe_cat",
+        "latin": "Boletus edulis",
+        "name": "Cep",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Calocybe_gambosa": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntscg_cat",
+        "latin": "Calocybe Gambosa",
+        "name": "Moixernó",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Cantharellus_cibarius": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntscc_cat",
+        "latin": "Cantharellus cibarius",
+        "name": "Rossinyol",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Cantharellus_lutescens": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntscl_cat",
+        "latin": "Cantharellus lutescens",
+        "name": "Camagroc",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Clavulina_cinerea": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntsclc_cat",
+        "latin": "Clavulina cinerea",
+        "name": "Peu de rata gris",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Clitocybe_costata": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntsccos_cat",
+        "latin": "Clitocybe costata",
+        "name": "Cama-sec de bosc",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Craterellus_cornucopioides": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntscco_cat",
+        "latin": "Craterellus cornucopioides",
+        "name": "Trompeta de la mort",
+        "other_names": "",
+        "poisonous": "Not Poisonous",
+        "wikipedia": "https://fr.wikipedia.org/wiki/Trompette_de_la_mort"
+    },
+    "Gyroporus_cyanescens": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntsgcy_cat",
+        "latin": "Gyroporus cyanescens",
+        "name": "Mataparent groc",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Hebeloma_laterinum": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntshlt_cat",
+        "latin": "Hebeloma laterinum",
+        "name": "Carlí",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Hygrophorus_eburneus": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntshe_cat",
+        "latin": "Hygrophorus eburneus",
+        "name": "Llenega blanca",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Hygrophorus_gliocyclus": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntshg_cat",
+        "latin": "Hygrophorus gliocyclus",
+        "name": "Llenega groga",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Hygrophorus_latitabundus": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntshl_cat",
+        "latin": "Hygrophorus latitabundus",
+        "name": "Llenega negra",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Hygrophorus_russula": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntshru_cat",
+        "latin": "Hygrophorus russula",
+        "name": "Carlet",
+        "other_names": "",
+        "poisonous": "Not Poisonous",
+        "wikipedia": ""
+    },
+    "Lactarius_deliciosus": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntsld_cat",
+        "latin": "Lactarius deliciosus",
+        "name": "Pinetell",
+        "other_names": "",
+        "poisonous": "Not Poisonous",
+        "wikipedia": ""
+    },
+    "Lactarius_sanguifluus": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntsls_cat",
+        "latin": "Lactarius sanguifluus",
+        "name": "Rovello",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Laetiporus_sulphureus": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntslsu_cat",
+        "latin": "Laetiporus sulphureus",
+        "name": "G\u00edrgola groga",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Laetiporus"
+    },
+    "Lycoperdon_perlatum": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntslp_cat",
+        "latin": "Lycoperdon perlatum",
+        "name": "Pet de llop",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Macrolepiota_procera": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntsmp_cat",
+        "latin": "Macrolepiota procera",
+        "name": "Apagallums",
+        "other_names": "bolet del frare, cama-seques, capell del senyor, coloma, cogomella, cogombre, farinosa, maneta, pamperol, pampinella o pimpinella (farinosa), paraigua o paraig\u00fces, pota dase i senyal dalzina",
+        "poisonous": "Not Poisonous",
+        "wikipedia": "https://ca.wikipedia.org/wiki/Paloma"
+    },
+    "Marasmius_oreades": {
+        "description": "",
+        "edibility": "",
+        "insta_tag": "ntsmo_cat",
+        "latin": "Marasmius oreades",
+        "name": "Cama-sec",
+        "other_names": "",
+        "poisonous": "",
+        "wikipedia": ""
+    },
+    "Melanoleuca_excissa": {
+        "description": "",
+        "edibility": "Not Edible",
+        "insta_tag": "ntsmex_cat",
+        "latin": "Melanoleuca excissa",
+        "name": "Moixernó negre",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Morchella_deliciosa": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntsmde_cat",
+        "latin": "Morchella deliciosa",
+        "name": "Múrgola deliciosa",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Rubroboletus_satanas": {
+        "description": "",
+        "edibility": "Not edible",
+        "insta_tag": "ntsbs_cat",
+        "latin": "Rubroboletus satanas",
+        "name": "Mataparent, Matagent",
+        "other_names": "",
+        "poisonous": "Poisonous",
+        "wikipedia": ""
+    },
+    "Suillus_variegatus": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntssv_cat",
+        "latin": "Suillus variegatus",
+        "name": "Molleric clapat",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    },
+    "Tricholoma_terreum": {
+        "description": "",
+        "edibility": "Edible",
+        "insta_tag": "ntstt_cat",
+        "latin": "Tricholoma terreum",
+        "name": "fredolic",
+        "other_names": "",
+        "poisonous": "Not poisonous",
+        "wikipedia": ""
+    }
+}
