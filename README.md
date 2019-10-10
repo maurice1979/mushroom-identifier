@@ -6,12 +6,10 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
 
 Dataset consists of **24** of most common mushroom classes in Catalonia (Spain). This dataset has been build by means of Google images and Instagram scraping, and manually verified in order to be as good as possible. **80%** of the dataset is used for training and **20%** for validation.
 
-<from [PlantVillage](https://plantvillage.org/) dataset and **1** background class from Stanford's open dataset of background images - [DAGS](http://dags.stanford.edu/projects/scenedataset.html).>
-
 ## Configuration
-| Model        | Library |Training Platform | Accuracy |
-| ------------- |:-------------:|:-----------------:|:-------------:|
-| Resnet34       | Fastai      |    Google Cloud Platform           |   99.654%     | 
+| Model      | Library   | Training Platform | Accuracy    |
+| ---------- |:---------:|:-----------------:|:-----------:|
+| Resnet50   | Fastai    |    Google Colab   |   60.086%   |
 
 ## Dataset Description:
 
@@ -52,5 +50,7 @@ Packages:
 
 # **DISCLAIMER**
 
-This project is not intended to provide a 100% effective mushrooom identification, and tehre
+Identifying mushrooms from just a picture and a brief description can be very difficult.
+
+This project is not intended to provide a 100% effective mushrooom identification. Thus, if you plan to collect mushrooms to be eaten, misidentified mushrooms can make you sick or kill you. Do not eat mushrooms you are not 100% certain of. Use many resources, and be skeptical of your own conclusions. This project takes no responsibility for damage caused by wrong identifications. If you continue, you agree to view this website under these terms.
 
