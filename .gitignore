@@ -5,5 +5,5 @@
 .DS_Store
 
 # Model
-app/*.pkl
-app/*.pth
+app/models/*.pkl
+app/models/*.pth
