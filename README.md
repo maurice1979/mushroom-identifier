@@ -15,32 +15,32 @@ Dataset consists of **24** of most common mushroom classes in Catalonia (Spain).
 
 ## Dataset Description:
 
-|Name                       | No of Images  | Tags
-| ------------------------- |:-------------:|:-----------------:|
-| Amanita_caesarea          |     04        | '-'|
-| Amanita_muscaria          |     01        | '-'|
-| Amanita_pahlloides        |     02        | '-'|
-| Boletus_calopus           |     04        | '-'|
-| Boletus_edulis            |     04        | '-'|
-| Calocybe_gambosa          |     01        | '-'|
-| Cantharellus_cibarius     |     02        | '-'|
-| Cantharellus_lutescens    |     02        | '-'|
-| Craterellus_cornucopioides|     03        | '-'|
-| Hebeloma_laterinum        |     01        | '-'|
-| Hygrophorus_eburneus      |     01        | '-'|
-| Hygrophorus_latitabundus  |     01        | '-'|
-| Hygrophorus_russula       |     02        | '-'|
-| Lactarius_deliciosus      |     10        | '-'|
-| Lactarius_sanguifluus     |      'k'   | 't' |
-| Laetiporus_sulphureus     |      'k'   | 't' |
-| Lycoperdon_perlatum       |      'k'   | 't' |
-| Macrolepiota_procera      |      'k'   | 't' |
-| Marasmius_oreades         |      'k'   | 't' |
-| Melanoleuca_excissa       |      'k'   | 't' |
-| Morchella_deliciosa       |      'k'   | 't' |
-| Rubroboletus_satanas      |      'k'   | 't' |
-| Suillus_variegatus        |      'k'   | 't' |
-| Tricholoma_terreum        |      'k'   | 't' |
+|Name                       | No of Images | Tags
+| ------------------------- |:------------:|:-----:|
+| Amanita_caesarea          |     355      | '-'   |
+| Amanita_muscaria          |      67      | '-'   |
+| Amanita_pahlloides        |     333      | '-'   |
+| Boletus_calopus           |     374      | '-'   |
+| Boletus_edulis            |     380      | '-'   |
+| Calocybe_gambosa          |     408      | '-'   |
+| Cantharellus_cibarius     |     551      | '-'   |
+| Cantharellus_lutescens    |     396      | '-'   |
+| Craterellus_cornucopioides|     402      | '-'   |
+| Hebeloma_laterinum        |     344      | '-'   |
+| Hygrophorus_eburneus      |     426      | '-'   |
+| Hygrophorus_latitabundus  |     308      | '-'   |
+| Hygrophorus_russula       |     345      | '-'   |
+| Lactarius_deliciosus      |     185      | '-'   |
+| Lactarius_sanguifluus     |     366      | 't'   |
+| Laetiporus_sulphureus     |     424      | 't'   |
+| Lycoperdon_perlatum       |      99      | 't'   |
+| Macrolepiota_procera      |     371      | 't'   |
+| Marasmius_oreades         |     338      | 't'   |
+| Melanoleuca_excissa       |     107      | 't'   |
+| Morchella_deliciosa       |     367      | 't'   |
+| Rubroboletus_satanas      |     391      | 't'   |
+| Suillus_variegatus        |     363      | 't'   |
+| Tricholoma_terreum        |     355      | 't'   |
 
 
 
