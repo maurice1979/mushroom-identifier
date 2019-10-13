@@ -7,3 +7,7 @@
 # Model
 app/models/*.pkl
 app/models/*.pth
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
