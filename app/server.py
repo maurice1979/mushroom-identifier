@@ -8,26 +8,32 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+import json
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-AtqQ0HzQezNP4bVdWXg2atEU7GoCPjk'
-export_file_name = 'mushrooms_resnet50_model.pkl'
-
-classes = ['Amanita_caesarea', 'Amanita_muscaria', 'Amanita_pahlloides',
-           'Boletus_calopus', 'Boletus_edulis', 'Calocybe_gambosa',
-           'Cantharellus_cibarius', 'Cantharellus_lutescens',
-           'Craterellus_cornucopioides', 'Hebeloma_laterinum',
-           'Hygrophorus_eburneus',  'Hygrophorus_latitabundus',
-           'Hygrophorus_russula', 'Lactarius_deliciosus',
-           'Lactarius_sanguifluus', 'Laetiporus_sulphureus',
-           'Lycoperdon_perlatum', 'Macrolepiota_procera', 'Marasmius_oreades',
-           'Melanoleuca_excissa', 'Morchella_deliciosa', 'Rubroboletus_satanas',
-           'Suillus_variegatus', 'Tricholoma_terreum']
+export_file_url = 'https://drive.google.com/uc?export=download&id=1IJA9qHxEasgRWLppkbe_4E7ixHikKp7f'
+export_file_name = 'export.pkl'
 
 path = Path(__file__).parent
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
 app.mount('/static', StaticFiles(directory='app/static'))
+
+with open(path/'static/mushroom_info.json', 'r') as fp:
+    mushroom_info = json.load(fp)
+
+
+def generate_text(prediction, mushroom_info):
+    """Generate response from model prediction"""
+    key = str(prediction[0]).replace('Category ', '')
+    probability = max(prediction[2]).item()
+    latin = mushroom_info[key]['latin']
+    poisonous = mushroom_info[key]['poisonous']
+    other_names = mushroom_info[key]['name']
+    text = (f'Mushroom: {latin} (probability = {100*probability:.2f}%); \n'
+            f'Catalan name(s): {other_names}; \n'
+            f'Poisonous?: {poisonous}')
+    return text
 
 
 async def download_file(url, dest):
@@ -70,8 +76,9 @@ async def analyze(request):
     img_data = await request.form()
     img_bytes = await (img_data['file'].read())
     img = open_image(BytesIO(img_bytes))
-    prediction = learn.predict(img)[0]
-    return JSONResponse({'result': str(prediction)})
+    prediction = learn.predict(img)
+    response = generate_text(prediction, mushroom_info)
+    return JSONResponse({'result': response})
 
 
 if __name__ == '__main__':
