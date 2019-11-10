@@ -6,12 +6,12 @@ Training and evaluating state-of-the-art deep architectures for plant mushroom  
 
 Models are trained on the preprocessed dataset which can be downloaded [here](https://drive.google.com/drive/folders/1exBl5jKAoofDkoWhok2uJUJ8av0FKQEF?usp=sharing).
 
-Dataset consists of **43** of most common mushroom classes in Catalonia (Spain). This dataset has been build by means of Google images and Instagram scraping, and manually verified in order to be as good as possible. **80%** of the dataset is used for training and **20%** for validation. 
+Dataset consists of **43** of most common mushroom classes in Catalonia (Spain). This dataset has been build by means of Google images scrapping, and manually verified in order to be as good as possible. **80%** of the dataset is used for training and **20%** for validation. 
 
 ## Configuration
 | Model      | Library   | Training Platform | Accuracy    |
 | ---------- |:---------:|:-----------------:|:-----------:|
-| Resnet50   | Fastai    |    Google Colab   |   90.3892%   |
+| Resnet34   | Fastai    |    Google Colab   |   90.3892%   |
 
 ## Dataset Description:
 
